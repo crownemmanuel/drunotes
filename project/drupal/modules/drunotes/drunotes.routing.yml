@@ -1,0 +1,7 @@
+drunotes.content:
+  path: '/drunote_home'
+  defaults:
+    _controller: 'Drupal\drunotes\Controller\DrunotesPageRoute::content'
+    _title: 'Home'
+  requirements:
+    _permission: 'access content'

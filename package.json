@@ -1,0 +1,25 @@
+{
+  "name": "drunotes",
+  "version": "0.1.0",
+  "description": "Simple desmotraction of drupal inside electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crownemmanuel/drunotes.git"
+  },
+  "keywords": [
+    "Electron",
+    "Drupal",
+    "php"
+  ],
+  "author": "Emmanuel Crown",
+  "license": "MIT",
+  "homepage": "https://www.drupal.org/u/ecrown",
+  "devDependencies": {
+    "electron-prebuilt": "^1.1.2",
+    "gulp-connect-php": "^0.0.7"
+  }
+}
